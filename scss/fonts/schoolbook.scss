@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'SchoolBookC';
+  src: url('SchoolBookC-Italic.eot');
+  src: local('SchoolBookC Italic'), local('SchoolBookC-Italic'),
+  url('SchoolBookC-Italic.eot?#iefix') format('embedded-opentype'),
+  url('SchoolBookC-Italic.woff2') format('woff2'),
+  url('SchoolBookC-Italic.woff') format('woff'),
+  url('SchoolBookC-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SchoolBookC';
+  src: url('SchoolBookC-Bold.eot');
+  src: local('SchoolBookC Bold'), local('SchoolBookC-Bold'),
+  url('SchoolBookC-Bold.eot?#iefix') format('embedded-opentype'),
+  url('SchoolBookC-Bold.woff2') format('woff2'),
+  url('SchoolBookC-Bold.woff') format('woff'),
+  url('SchoolBookC-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SchoolBookC';
+  src: url('SchoolBookC-BoldItalic.eot');
+  src: local('SchoolBookC Bold Italic'), local('SchoolBookC-BoldItalic'),
+  url('SchoolBookC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('SchoolBookC-BoldItalic.woff2') format('woff2'),
+  url('SchoolBookC-BoldItalic.woff') format('woff'),
+  url('SchoolBookC-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SchoolBookC';
+  src: url('SchoolBookC.eot');
+  src: local('SchoolBookC'),
+  url('SchoolBookC.eot?#iefix') format('embedded-opentype'),
+  url('SchoolBookC.woff2') format('woff2'),
+  url('SchoolBookC.woff') format('woff'),
+  url('SchoolBookC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+

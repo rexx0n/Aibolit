@@ -1,0 +1,16 @@
+@import 'fonts/futura';
+@import "fonts/schoolbook";
+@import "variables";
+@import 'container';
+@import "header";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $firstFont;
+  font-style: normal;
+}
+body {
+  background: #FFFEFE;
+}
