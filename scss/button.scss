@@ -1,0 +1,19 @@
+.button {
+  border-radius: 33.5px;
+  background:  $thirdColor;
+  cursor: pointer;
+  box-shadow: 0px 4px 20px 0px $thirdColor;
+  border: none;
+  padding: 24px 77px;
+  color: #FFF;
+  font-family: $secondFont;
+  font-size: $fontSize20;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+  transition: 500ms;
+  &:hover {
+    box-shadow: none;
+    background: $firstColor;
+  }
+}

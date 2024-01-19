@@ -7,6 +7,11 @@
     display: flex;
     gap: 80px;
     a {
+      &:hover {
+        color: $firstColor;
+
+      }
+      transition: 500ms;
       font-family: $secondFont;
       color: #C3B9B5;
       text-decoration: none;
@@ -21,7 +26,25 @@
     display: flex;
     align-items: center;
     gap: 6px;
+    cursor: pointer;
+
+    &:hover {
+      a {
+        color: $firstColor;
+      }
+      svg {
+        path {
+          fill: $firstColor;
+        }
+      }
+    }
+    svg {
+      path {
+        transition: 500ms;
+      }
+    }
     a {
+      transition: 500ms;
       color: #FFC59E;
       text-decoration: none;
       text-transform: uppercase;
