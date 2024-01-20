@@ -1,0 +1,65 @@
+.modal {
+  z-index: 1;
+  background: rgba(8, 6, 6, 0.50);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  transition: 100ms;
+  &__none {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 0;
+  }
+  &__info {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 20px;
+    padding: 20px 20px 50px 20px;
+    background: #FFF;
+    box-shadow: 2px 2px 20px 0px rgba(155, 82, 50, 0.10);
+    svg {
+      cursor: pointer;
+    }
+    > div {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      h4 {
+        color: $secondColor;
+        font-family: $firstFont;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 133.333% */
+      }
+    }
+  }
+  &__choice {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    a {
+      transition: 500ms;
+      color: $secondColor;
+      font-family: $secondFont;
+      font-size: $fontSize20;
+      font-style: normal;
+      text-decoration: none;
+      font-weight: 400;
+      line-height: 20px; /* 100% */
+      &:hover {
+        color: $thirdColor
+      }
+    }
+  }
+}

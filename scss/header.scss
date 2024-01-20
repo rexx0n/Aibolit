@@ -1,11 +1,52 @@
 .header {
-  margin-top: 65px;
+  padding-top: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  &__dropdown {
+    position: relative;
+    display: inline-block;
+    &:hover .header__dropdown-content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+  &__dropdown-content {
+    width: 300px;
+    left: -50px;
+    display: none;
+    position: absolute;
+    padding: 40px 0 40px 50px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 2px 2px 20px 0px rgba(155, 82, 50, 0.10);
+    z-index: 1;
+  }
   nav {
     display: flex;
     gap: 80px;
+    .header__dropdown-content {
+      a {
+        max-width: 250px;
+        width: 100%;
+          text-transform: none;
+          color: $secondColor;
+          text-decoration: none;
+          display: block;
+          font-family: $secondFont;
+          font-size: $fontSize20;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px; /* 150% */
+          &:hover {
+            font-weight: 600;
+            padding-left: 10px;
+            color: $secondColor;
+          }
+      }
+    }
     a {
       &:hover {
         color: $firstColor;

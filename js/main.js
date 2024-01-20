@@ -1,6 +1,8 @@
 import '../scss/style.scss'
 import {madeTargetActive} from './nav.js'
-madeTargetActive()
+import {functionModal} from "./modal.js";
 
+madeTargetActive()
+functionModal()
 
 

@@ -31,13 +31,24 @@
     visibility: hidden;
     position: relative;
     display: none;
+    &--6 {
+      .main__socials {
+        padding-bottom: 80px;
+      }
+      img {
+        margin-right: 0;
+        margin-left: -97px;
+      }
+    }
     &--5 {
       img {
         margin-right: 0;
+        margin-top: 85px;
       }
     }
     &--4 {
       img {
+        margin-top: 35px;
         margin-right: 0;
       }
     }
