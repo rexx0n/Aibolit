@@ -5,4 +5,3 @@ import {functionModal} from "./modal.js";
 madeTargetActive()
 functionModal()
 
-
