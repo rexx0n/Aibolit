@@ -1,0 +1,35 @@
+.application {
+  background: $thirdColor;
+  padding-top: 251px;
+  padding-bottom: 113px;
+  h5 {
+    color: #FFF;
+    font-family: $secondFont;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 66.667% */
+  }
+  h1 {
+    margin-top: 30px;
+    color: #FFF;
+    max-width: 826px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110px; /* 137.5% */
+  }
+  &__content {
+    display: flex;
+    justify-content: center;
+    >div {
+      div {
+        display: flex;
+        align-items: center;
+      }
+    }
+    > img {
+      margin-left: -146px;
+    }
+  }
+}

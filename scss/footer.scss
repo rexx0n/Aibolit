@@ -1,0 +1,85 @@
+.footer {
+  background: $firstColor;
+  padding-top:80px;
+  padding-bottom: 60px;
+
+  &__content {
+    display: flex;
+    max-width: 1345px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  &__socials {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  &__app {
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 158px;
+      &:first-child {
+        max-width: 140px;
+      }
+    }
+  }
+  p {
+    color: #FFF;
+    font-family: $secondFont;
+    font-size: $fontSize20;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    margin-bottom: 70px;
+    margin-top: 30px;
+  }
+  span {
+    color: #FFF;
+    font-family: $secondFont;
+    font-size: $fontSize20;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+  }
+  &__lists {
+    display: flex;
+    margin-top: 39px;
+    gap: 100px;
+    ul {
+      list-style-type: none;
+      li {
+        cursor: pointer;
+        max-width: 192px;
+        color: #FFF;
+        font-family: $secondFont;
+        font-size: $fontSize20;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+      }
+    }
+  }
+  &__logo {
+    svg {
+      margin-left: -113px;
+    }
+    display: flex;
+    gap: 22px;
+    h1 {
+      color: #FFF;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    span {
+      color: #FFF;
+      font-family: $secondFont;
+      font-size: $fontSize20;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 100% */
+    }
+  }
+}

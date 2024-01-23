@@ -1,0 +1,41 @@
+.contact {
+  margin: 235px auto 209px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1460px;
+  &__content {
+    display: flex;
+    gap: 25px;
+    margin-top: 70px;
+  }
+  h2 {
+    color: $secondColor;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 133.333% */
+  }
+  &__address {
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      li {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color:$firstColor;
+        font-family: $secondFont;
+        font-size: $fontSize20;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 .advantages {
   margin-top: 316px;
+  margin-bottom: 309px;
   h1 {
     color: $firstColor;
     font-size: 144px;
@@ -28,14 +29,41 @@
   }
   &__cards {
     margin-top: 104px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 94px;
+    row-gap: 70px;
+    justify-content: center;
   }
   &__card {
+    height: 100%;
+    max-width: 484px;
+    width: 100%;
     h4 {
       color: $secondColor;
       font-size: 30px;
       font-style: normal;
       font-weight: 400;
       line-height: 40px; /* 133.333% */
+    }
+    div {
+      max-height: 150px;
+      height: 100%;
+      align-items: center;
+      margin-top: 36px;
+      display: flex;
+      justify-content: space-between;
+      max-width: 484px;
+      width: 100%;
+      p {
+        max-width: 318px;
+        color: $firstColor;
+        font-family: $secondFont;
+        font-size: $fontSize20;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+      }
     }
   }
   h3 {
