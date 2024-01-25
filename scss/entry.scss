@@ -3,6 +3,9 @@
   margin:75px auto 457px;
   align-items: center;
   gap: 191px;
+  &--none {
+    display: none;
+  }
   > div {
     max-width: 909px;
     width: 100%;

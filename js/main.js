@@ -5,7 +5,13 @@ import {slider} from './slider.js'
 
 madeTargetActive()
 functionModal()
-slider()
+try {
+    slider()
+}
+catch (err) {
+    console.log(err)
+}
+
 
 
 

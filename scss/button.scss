@@ -12,6 +12,14 @@
   font-weight: 700;
   line-height: 20px; /* 100% */
   transition: 500ms;
+  &--disabled {
+    cursor: not-allowed;
+    background: #EDE9E8;
+    box-shadow: none;
+    &:hover {
+      background: #EDE9E8;
+    }
+  }
   &:hover {
     box-shadow: none;
     background: $firstColor;
