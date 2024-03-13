@@ -5,20 +5,6 @@
   max-width: 1352px;
   margin: 150px auto;
   &--page {
-    section {
-      a {
-        /* кнопка */
-        color: $thirdColor;
-        font-family: $secondFont;
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 20px;
-        text-decoration: none;
-        text-align: left;
-        text-transform: uppercase;
-        margin-bottom: 55px;
-      }
-    }
     aside {
       display: flex;
       flex-direction: column;

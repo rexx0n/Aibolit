@@ -19,12 +19,17 @@ btns.forEach((btn)=> {
     })
 })
 
-let entryPayBtn = document.querySelector('.entry__pay button')
-let entryButton = document.querySelector('.entry__form form > button')
-let entryPay = document.querySelector('.entry__pay')
-console.log(entryButton)
-entryPayBtn.addEventListener('click', (event)=> {
-    event.preventDefault()
-    entryPay.style.display = 'none'
-    entryButton.classList.remove('entry--none')
-})
+try {
+    let entryPayBtn = document.querySelector('.entry__pay button')
+    let entryButton = document.querySelector('.entry__form form > button')
+    let entryPay = document.querySelector('.entry__pay')
+    console.log(entryButton)
+    entryPayBtn.addEventListener('click', (event)=> {
+        event.preventDefault()
+        entryPay.style.display = 'none'
+        entryButton.classList.remove('entry--none')
+    })
+}
+catch (err) {
+    console.log(err)
+}
